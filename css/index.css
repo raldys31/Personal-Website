@@ -91,4 +91,37 @@ body {
     margin: 0px;
 }
 
+/* Responsive support */
+@media(max-width: 560px) {
+    .header::after {
+        height: 50vh;
+    }
+
+    .header-content {
+        top: 2.5%;
+        margin-top: 5px;
+    }
+
+    .header-content .logo {
+        height: 140px;
+        width: 140px;
+    }
+
+    .header-content .text {
+        display: none;
+    }
+
+    .grid-5, .grid-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .social {
+        padding: 1rem 1rem;
+    }
+
+    .container {
+        width: 285px;
+        margin: auto;
+    }
+}
 
