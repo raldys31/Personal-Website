@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Raldys</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -16,15 +16,59 @@
 
     <!--CSS Personalization-->
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/coffee.css">
 
     <!--CSS Animations--> 
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 </head>
+
 <body>
-    
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <a href="#">
+            <img style="width: 20px" rel="icon" src="/personal_webpage/img/wd_logo.png" alt="">
+        </a>
+
+        <!-- Only on smartphones -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Navegation Menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#academic" class="nav-link">Academic</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+     <!-- jQuery, Popper.js, Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script>
+
+        // Scroll spy
+      $('body').scrollspy({
+        target: ".navbar"
+      });
+    </script>
+
+
     <!--Header-->
     <header class="header">
         <div class="container header-background">
@@ -35,6 +79,59 @@
                         <img src="img/wd_logo.png" alt="Web Developing Logo" class="logo">
                         <h3 class="section-title">Welcome to my website!</h3>
                         <p class="text">I'm Raldys!</p>
+                        <!-- Coffee Animation -->
+                        <div class="coffee-animation container">
+                            <div class="aligner">
+                                <div class="aligner-item coffee-container">
+                                    <div class="steam-container">
+                                        <div class="squiggle-container squiggle-container-1">
+                                            <div class="squiggle">
+                                                <svg style="height:30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 28.1 80.6" style="enable-background:new 0 0 28.1 80.6;" xml:space="preserve">
+                                        <path class="" fill="none" stroke-width="11" stroke-linecap="round" stroke-miterlimit="10" d="M22.6,75.1c-8-5.6-15.2-10.5-15.2-19.9c0-12.1,14.1-17.2,14.1-29.6c0-9.1-6.7-15.7-16-20.1" />
+                                      </svg>
+                                            </div>
+                                            <!-- end .squiggle-->
+                                        </div>
+                                        <div class="squiggle-container squiggle-container-2">
+                                            <div class="squiggle">
+                                                <svg style="height:30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 28.1 80.6" style="enable-background:new 0 0 28.1 80.6;" xml:space="preserve">
+                                        <path class="" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-miterlimit="10" d="M22.6,75.1c-8-5.6-15.2-10.5-15.2-19.9c0-12.1,14.1-17.2,14.1-29.6c0-9.1-6.7-15.7-16-20.1" />
+                                      </svg>
+                                            </div>
+                                            <!-- end .squiggle-->
+                                        </div>
+                                        <div class="squiggle-container squiggle-container-3">
+                                            <div class="squiggle">
+                                                <svg style="height:30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 28.1 80.6" style="enable-background:new 0 0 28.1 80.6;" xml:space="preserve">
+                                        <path class="" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-miterlimit="10" d="M22.6,75.1c-8-5.6-15.2-10.5-15.2-19.9c0-12.1,14.1-17.2,14.1-29.6c0-9.1-6.7-15.7-16-20.1" />
+                                      </svg>
+                                            </div>
+                                            <!-- end .squiggle-->
+                                        </div>
+                                    </div>
+                                    <div style="height:60px" class="coffee-cup-container">
+                                        <svg style="height:50px" class="coffee-cup" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.15 31">
+                                            <defs>
+                                                <style>
+                                                    .a {
+                                                        fill: #ffffff;
+                                                    }
+                    
+                                                    .b {
+                                                        fill: #121212;
+                                                    }
+                                                </style>
+                                            </defs>
+                                            <path class="a" d="M30.06,2V23.75c0,2.63-.87,5.13-5.12,5.13H7.06A4.86,4.86,0,0,1,2,23.81V2H30.06Z" transform="translate(0 -0.06)" />
+                                            <path class="b" d="M40.64,9.52a10.2,10.2,0,0,0-8.64-5V0.06H0V23.81a7,7,0,0,0,7.06,7.24H24.94c2.34,0,6.06-.81,6.93-5.18a10.6,10.6,0,0,0,8.89-5.29A11.29,11.29,0,0,0,40.64,9.52ZM28,23.75c0,2.07-.42,3.31-3.06,3.31H7.06A3,3,0,0,1,4,23.81V4.06H28V23.75Zm9.26-5.17A7.13,7.13,0,0,1,32,21.78V8.45a7,7,0,0,1,5.18,3.1A7.24,7.24,0,0,1,37.26,18.58Z"
+                                                  transform="translate(0 -0.06)" />
+                                        </svg>
+                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Coffe Animation -->
                     </div>
                 </div>
             </div>
@@ -42,7 +139,7 @@
     </header>
 
     <!--About me-->
-    <div class="container text-center">
+    <div id="about" class="container text-center">
         <div class="row">
             <div class="col-12 col-md-8 my-4">
                 <h3 class="section-title">About me</h3>
@@ -55,7 +152,7 @@
     </div>
 
     <!--Academic-->
-    <div class="container text-center bg-green">
+    <div id="academic" class="container text-center bg-green">
         <div class="row">
             <div class="col-12 col-md-4 my-4">
                 <i class="fas fa-laptop fa-10x"></i>
@@ -103,10 +200,6 @@
             </div>
         </div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
     <!--Footer-->
     <footer class="footer">
