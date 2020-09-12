@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Raldys</title>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -25,79 +27,96 @@
     
     <!--Header-->
     <header class="header">
-        <div class="header-background">
-            <img src="img/header_bg.jpg" alt="Header Background">
-        </div>
-        <div class="header-content animate__animated animate__bounce">
-            <img src="img/wd_logo.png" alt="Web Developing Logo" class="logo">
-            <h3 class="title">Welcome to my website!</h3>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. 
-            </p>
+        <div class="container header-background">
+            <div class="row">
+                <div class="col">
+                    <img src="img/header_bg.jpg" alt="Header Background">
+                    <div class="header-content animate__animated animate__bounce">
+                        <img src="img/wd_logo.png" alt="Web Developing Logo" class="logo">
+                        <h3 class="section-title">Welcome to my website!</h3>
+                        <p class="text">I'm Raldys!</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
-    <!--Academic-->
-    <section class="about">
-        <div class="container text-center">
-            <div class="grid-2">
-                <div class="center">
-                    <i class="fas fa-laptop fa-10x"></i>
-                </div>
-                <div>
-                    <h3 class="title">Academic</h3>
-                    <p>Academic info. Amet nihil magnam maxime dolor qui veritatis quaerat explicabo fugiat similique. Facilis ea reprehenderit laboriosam molestias odit officia. Facilis sunt harum tempore suscipit placeat beatae? Autem iure dignissimos maxime ducimus.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!--About me-->
-    <section class="about bg-light">
-        <div class="container text-center">
-            <div class="grid-2">
-                <div>
-                    <h3 class="title">About me</h3>
-                    <p>About me info. Amet nihil magnam maxime dolor qui veritatis quaerat explicabo fugiat similique. Facilis ea reprehenderit laboriosam molestias odit officia. Facilis sunt harum tempore suscipit placeat beatae? Autem iure dignissimos maxime ducimus.</p>
-                </div>
-                <div class="center">
-                    <i class="fas fa-user fa-10x"></i>
-                </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-12 col-md-8 my-4">
+                <h3 class="section-title">About me</h3>
+                <p>Academic info. Amet nihil magnam maxime dolor qui veritatis quaerat explicabo fugiat similique. Facilis ea reprehenderit laboriosam molestias odit officia. Facilis sunt harum tempore suscipit placeat beatae? Autem iure dignissimos maxime ducimus.</p>
+            </div>
+            <div class="col-12 col-md-4 my-4">
+                <i class="fas fa-user fa-10x"></i>
             </div>
         </div>
-    </section>
+    </div>
 
-     <!--Social-->
-     <section class="social text-center">
-        <h3 class="title">Social</h3>
-        <div class="grid-5">
-            <div>
-                <i class="fab fa-linkedin fa-4x"></i>
-                <h3>LinkedIn</h3>
+    <!--Academic-->
+    <div class="container text-center bg-green">
+        <div class="row">
+            <div class="col-12 col-md-4 my-4">
+                <i class="fas fa-laptop fa-10x"></i>
             </div>
-            <div>
-                <i class="fab fa-github-square fa-4x"></i>
-                <h3>GitHub</h3>
+            <div class="col-12 col-md-8 my-4">
+                <h3 class="section-title">Academic</h3>
+                <p>Academic info. Amet nihil magnam maxime dolor qui veritatis quaerat explicabo fugiat similique. Facilis ea reprehenderit laboriosam molestias odit officia. Facilis sunt harum tempore suscipit placeat beatae? Autem iure dignissimos maxime ducimus.</p>
             </div>
-            <div>
-                <i class="fas fa-envelope-square fa-4x"></i>
-                <h3>Mail</h3>
-            </div>
-            <div>
-                <i class="fab fa-facebook-square fa-4x"></i>
-                <h3>Facebook</h3>
-            </div>
-            <div>
-                <i class="fab fa-twitter-square fa-4x"></i>
-                <h3>Twitter</h3>
-            </div>
+        </div>
+    </div>
 
-        </div>  
-    </section>
+    <!-- Social -->
+    <div class="container p-4">
+        <div class="row">
+            <div class="col">
+                <section class="social text-center">
+                    <h3 class="section-title">Social</h3>
+                    <div class="grid-4">
+                        <div class="icon-padding">
+                            <i class="fab fa-linkedin fa-4x"></i>
+                            <div>
+                                <a href="https://www.linkedin.com/in/raldys31/"><button type="button" class="btn bg-green">LinkedIn</button></a>
+                            </div>
+                        </div>
+                        <div class="icon-padding">
+                            <i class="fab fa-github-square fa-4x"></i>
+                            <div>
+                                <a href="https://github.com/raldys31"><button type="button" class="btn bg-green">GitHub</button></a>
+                            </div>
+                        </div>
+                        <div class="icon-padding">
+                            <i class="fab fa-facebook-square fa-4x"></i>
+                            <div>
+                                <a href="https://www.facebook.com/raldys3198"><button type="button" class="btn bg-green">Facebook</button></a>
+                            </div>
+                        </div>
+                        <div class="icon-padding">
+                            <i class="fab fa-twitter-square fa-4x"></i>
+                            <div>
+                                <a href="https://twitter.com/raldys31"><button type="button" class="btn bg-green">Twitter</button></a>
+                            </div>
+                        </div>
+                    </div>  
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
     <!--Footer-->
-    <footer class="footer text-center bg-light">
-        <p>Raldys Y. Cruz Serrano 2020 &copy; - All rights reserved</p>
+    <footer class="footer">
+        <div class="container bg-green text-center p-4">
+            <div class="row">
+                <div class="col">
+                    <p class="mb-0">Thanks for visiting!</p>
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>

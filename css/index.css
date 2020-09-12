@@ -8,9 +8,10 @@ body {
 img {
     max-width: 100%;
     max-height: 100%;
+    margin: 0px;
 }
 
-.header-background {
+/* .header-background {
     filter: blur(10px); 
     -webkit-filter: blur(5px);
     transition: all 1000ms;
@@ -24,7 +25,7 @@ img {
 .header:hover .header-content {
     filter: blur(2px);
     -webkit-filter: blur(2px);
-}
+} */
 
 .header-content {
     position: absolute;
@@ -35,7 +36,7 @@ img {
     margin-left: -145px;
     text-align: center;
     width: 300px;
-    height: 350px;
+    height: 200px;
     transition: all 1000ms;
 }
 
@@ -43,7 +44,7 @@ img {
     height: 100px;
 }
 
-.title {
+.section-title {
     font-size: 2rem;
 }
 
@@ -52,21 +53,16 @@ img {
     margin-top: 1rem;
 }
 
-.container {
+/* .main {
     width: 90%;
     margin: auto;
     overflow: hidden;
     padding: 4rem 4rem;
-}
+} */
 
-.grid-5 {
+.grid-4 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-.grid-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .text-center {
@@ -74,42 +70,34 @@ img {
     margin: auto;
 }
 
-.bg-light {
+.bg-green {
     background: rgb(108, 186, 135);
     color: black;
 }
 
-.footer {
-    padding: 2rem;
-    margin: 0px;
-}
-
-.footer p {
-    margin: 0px;
-}
-
 /* Responsive support */
+@media screen and (max-width: 405px) {
+    .grid-4 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .header-content {
         text-align: center;
-    }
-
-    .header-content .logo {
-        height: 20px;
-        width: 60px;
+        height: auto;
+        width: fit-content;
     }
 
     img {
-        height: 340px;
+        height: auto;
         width: fit-content;
     }
-    
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 1000px) {
     .header-content {
         top: 2.5%;
-        margin-top: 5px;
         max-width: fit-content;
     }
 
@@ -118,30 +106,18 @@ img {
         width: 100px;
     }
 
-    .grid-5, .grid-2 {
-        grid-template-columns: 1fr;
+    .icon-padding {
+        padding: 10px;
     }
 
-    .social {
-        padding: 1rem 1rem;
-    }
-
-    .container {
-        max-width: fit-content;
-        margin: auto;
-    }
 }  
 
-@media screen and (max-width: 1024px) {
+@media(max-width: 1024px) {
     .header-content {
-        top: 0vmax;
         margin-top: 10%;
         max-width: fit-content;
     }
 
-    .container {
-        max-width: fit-content;
-    };
 }
 
 
