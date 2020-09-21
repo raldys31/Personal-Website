@@ -66,6 +66,14 @@ img {
     float: right;
 }
 
+.content{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+  }
+
 /* Responsive support */
 @media screen and (max-width: 405px) {
     .grid-4 {
