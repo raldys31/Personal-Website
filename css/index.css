@@ -51,6 +51,21 @@ img {
     color: black;
 }
 
+.text-extra-dark {
+    color:#343a40 !important;
+}
+
+.bg-extra-light {
+    background-color: #f8f9fa !important;
+}
+
+.up {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
+
 /* Responsive support */
 @media screen and (max-width: 405px) {
     .grid-4 {
