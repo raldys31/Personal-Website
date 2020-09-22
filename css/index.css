@@ -98,11 +98,6 @@ img {
     .header-content .logo {
         display: none;
     }
-
-    img {
-        height: auto;
-        width: fit-content;
-    }
 }
 
 @media screen and (max-width: 1000px) {
