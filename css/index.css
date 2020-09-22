@@ -72,9 +72,6 @@ img {
 }
 
 .navbar-brand img {
-    margin: auto;
-    border-radius: 5px;
-    border: solid 2px rgb(108, 186, 135);
     height: 40px;
     width: 40px;
 }
