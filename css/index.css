@@ -3,7 +3,7 @@ body {
     margin: 0;
     color: #ffffff;
     font-family: 'Oswald', serif;
-    margin-top: 54px;
+    margin-top: 64px;
 }
 
 img {
@@ -16,7 +16,6 @@ img {
     z-index: 1;
     top: 2.5%;
     left: 50%;
-    /* margin-top: 105px; */
     margin-left: -145px;
     text-align: center;
     width: 300px;
@@ -67,7 +66,7 @@ img {
 }
 
 .tabcontent:before {
-    height: 54px;
+    height: 62px;
     content: "";
     display:block;
 }
@@ -76,8 +75,8 @@ img {
     margin: auto;
     border-radius: 5px;
     border: solid 2px rgb(108, 186, 135);
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
 }
 
 /* Responsive support */
