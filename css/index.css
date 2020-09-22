@@ -3,7 +3,7 @@ body {
     margin: 0;
     color: #ffffff;
     font-family: 'Oswald', serif;
-    margin-top: 64px;
+    margin-top: 54px;
 }
 
 img {
@@ -66,15 +66,15 @@ img {
 }
 
 .tabcontent:before {
-    height: 62px;
+    height: 54px;
     content: "";
     display:block;
 }
 
-.navbar-brand img {
+/* .navbar-brand img {
     height: 40px;
     width: 40px;
-}
+} */
 
 /* Responsive support */
 @media screen and (max-width: 405px) {
